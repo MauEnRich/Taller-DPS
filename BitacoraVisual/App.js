@@ -12,7 +12,7 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="HomeScreen">
+      <Stack.Navigator initialRouteName="Inicio">
         {/* Verifica que los nombres de las pantallas estén bien escritos */}
         <Stack.Screen name="Inicio" component={HomeScreen} />
         <Stack.Screen name="Cámara" component={CameraScreen} />
